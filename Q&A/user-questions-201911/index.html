@@ -835,15 +835,7 @@
                 <h1 id="1-2019-11">1. 用户问题解答 2019-11<a class="headerlink" href="#1-2019-11" title="Permanent link">&para;</a></h1>
 <h2 id="11-readlink">1.1 计算节点readlink命令找不到<a class="headerlink" href="#11-readlink" title="Permanent link">&para;</a></h2>
 <h3 id="111">1.1.1 问题描述<a class="headerlink" href="#111" title="Permanent link">&para;</a></h3>
-<ul>
-<li>来源：郑刚用户</li>
-<li>系统：TH-1A</li>
-<li>用户：jli</li>
-<li>软件：readlinkk</li>
-<li>进度：已解决</li>
-<li>用时：10分钟</li>
-<li>详细描述：在计算节点运行脚本，slurm.out报错readlink命令找不到</li>
-</ul>
+<p>在计算节点运行脚本，slurm.out报错readlink命令找不到</p>
 <h2 id="12">1.2 解决方法<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
 <p>登陆到登陆节点，如<code>ln2</code>，然后加载对应的模块，如 <code>module add loginnode/ln2</code>，使用命令检查  <code>readlink</code> 是否存在</p>
 <div class="codehilite"><pre><span></span>$ module add loginnode/ln2 <span class="c1"># 注意是登陆ln2节点，所以加载ln2的</span>
